@@ -1,0 +1,76 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    color: #97978D;
+
+}
+a{
+    text-decoration: none;
+    color: #97978D;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.heder_block{
+    margin: 0 auto;
+}
+
+.logo-image {
+    width: 400px; /* Set the desired width */
+    height:300px; /* Set the desired height */
+}
+
+
+.language{
+    color: #97978D;
+    margin-left: 10px;
+    
+}
+
+.section {
+    margin-bottom: 100px;
+}
+.object_header{
+    margin-bottom: 30px;
+}
+
+.image {
+    max-width: 340px;
+    height: 226px;
+}
+
+/* Стили для объектов */
+.properties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.property {
+    width: calc(35% - 10px);
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.property_desc{
+    max-width: 500px;
+    
+}
+.border{
+    border: 1px solid #E7E7DE;
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer{
+    margin-top: 60px;
+    text-align: center;
+}

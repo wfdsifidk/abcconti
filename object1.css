@@ -1,0 +1,93 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    color: #97978D;
+
+}
+a{
+    text-decoration: none;
+    color: #97978D;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.heder_block{
+    margin: 0 auto;
+}
+
+.logo-image {
+    width: 400px; /* Set the desired width */
+    height:300px; /* Set the desired height */
+}
+
+
+.language{
+    color: #97978D;
+    margin-left: 10px;
+}
+.slider {
+    max-width: 700px;
+}
+.slider_item img {
+    width: 700px;
+    height: 460px;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+ 
+}
+
+.prev {
+  left: 10px;
+  z-index: 10000;
+  content: '◀'; /* Заменено на символ стрелки */
+}
+
+.next {
+  right:10px;
+  content: '▶'; /* Заменено на символ стрелки */
+}
+.object_block{
+    display: flex;
+    margin-bottom: 100px;
+}
+.object_desc{
+    padding-right: 10px;
+    margin-left: 30px;
+    padding-left: 20px;
+    background-color: #ECECE4;
+    width: 450px;
+
+}
+.border{
+
+    border: 1px solid #E7E7DE;
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer{
+    margin-top: 100px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+  

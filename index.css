@@ -156,7 +156,7 @@ a{
         }
         .logo-image{
             width: 200px;
-            height: 160px;
+            height: auto;
         }
         body{
             font-size: 10px;

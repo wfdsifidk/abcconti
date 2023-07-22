@@ -2,7 +2,7 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
     margin: 0;
     color: #97978D;
-
+    text-decoration: none;
 }
 a{
     text-decoration: none;
@@ -179,6 +179,7 @@ a{
 }
 
 @media all and (max-width: 480px) {
+
    .object_block{
     display: flex;
     flex-direction: column;
@@ -188,6 +189,7 @@ a{
        }
        .footer{
         font-size: 12px;
+    
        }
         .logo-image{
             width: 200px;

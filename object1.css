@@ -87,7 +87,7 @@ a{
     margin-top: 100px;
     margin-top: 60px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   
@@ -179,7 +179,10 @@ a{
 }
 
 @media all and (max-width: 480px) {
-   
+   .object_block{
+    display: flex;
+    flex-direction: column;
+   }
     .language{
         font-size: 10px;
        }
@@ -197,11 +200,11 @@ a{
              max-width: 300px;
          }
          .slider {
-             max-width: 200px;
+             max-width: 300px;
          }
          .slider_item img {
              width: 300px;
-             height: 180px;
+             height: 200px;
          }
          .prev,
          .next {
@@ -221,8 +224,14 @@ a{
           font-size: 7px;
          }
         .object_desc{
-            font-size: 6px;
-            padding-left: 10px;
+
+            margin-top: 30px;
+            max-width: 280px;
+            font-size: 13px;
+            padding-left: 20px;
+    
+            margin-left: 0px;
+            padding-right: 0px;
         }
     
  }

@@ -35,10 +35,7 @@ a{
 }
 
 .section {
-    margin-bottom: 100px;
-}
-.object_header{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .image {
@@ -57,12 +54,13 @@ a{
 
 .property {
     width: calc(35% - 10px);
-    padding-top: 30px;
     margin-bottom: 20px;
     text-decoration: none;
+
 }
 .property_desc{
     max-width: 500px;
+
     
 }
 .border{

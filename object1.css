@@ -1,12 +1,12 @@
 body{
     font-family: 'Hind Siliguri', sans-serif;
     margin: 0;
-    color: #97978D;
+    color: #97978d;
     text-decoration: none;
 }
 a{
     text-decoration: none;
-    color: #97978D;
+
 }
 .container {
     max-width: 1000px;
@@ -29,7 +29,7 @@ a{
 
 
 .language{
-    color: #97978D;
+    color: black;
     margin-left: 10px;
 }
 .slider {
@@ -46,7 +46,7 @@ a{
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
-  background-color: black;
+background-color: black;
   color: white;
   text-align: center;
   line-height: 40px;
@@ -75,6 +75,7 @@ a{
     padding-left: 20px;
     background-color: #ECECE4;
     width: 450px;
+    color: black;
 
 }
 .border{
@@ -88,6 +89,7 @@ a{
     margin-top: 60px;
     text-align: center;
     margin-bottom: 60px;
+    color: black;
 }
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   
@@ -163,8 +165,8 @@ a{
        transform: translateY(-50%);
        width: 25px;
        height: 25px;
-       background-color: black;
-       color: white;
+     
+     color: white;
        text-align: center;
        line-height: 16px;
        cursor: pointer;
@@ -215,15 +217,13 @@ a{
            transform: translateY(-50%);
            width: 25px;
            height: 25px;
-           background-color: black;
-           color: white;
+           
            text-align: center;
-           line-height: 16px;
+           line-height: 27px;
            cursor: pointer;
-           border-radius: 10px;
-           width: 15px;
-           height: 15px;
-          font-size: 7px;
+           border-radius: 7px;
+         
+          font-size: 12px;
          }
         .object_desc{
 

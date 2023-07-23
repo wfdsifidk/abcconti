@@ -6,6 +6,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #97978d;
 
 }
 .container {
@@ -29,7 +30,7 @@ a{
 
 
 .language{
-    color: black;
+ 
     margin-left: 10px;
 }
 .slider {
@@ -75,7 +76,6 @@ background-color: black;
     padding-left: 20px;
     background-color: #ECECE4;
     width: 450px;
-    color: black;
 
 }
 .border{
@@ -89,7 +89,6 @@ background-color: black;
     margin-top: 60px;
     text-align: center;
     margin-bottom: 60px;
-    color: black;
 }
 @media all and (min-width: 1024px) and (max-width: 1280px) {
   

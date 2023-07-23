@@ -1,12 +1,15 @@
 body{
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 0;
-    color: #97978d;
+    line-height: 1.5;
+    color: white;
     text-decoration: none;
+    background-color: black;
 }
 a{
     text-decoration: none;
-    color: #97978d;
+    color: white;
+
 
 }
 .container {
@@ -20,12 +23,14 @@ a{
     
 }
 .heder_block{
-    margin: 0 auto;
+
 }
 
 .logo-image {
     width: 400px; /* Set the desired width */
-    height:300px; /* Set the desired height */
+    height:auto; 
+    padding:50px 50px 50px 0px;
+    
 }
 
 
@@ -74,8 +79,9 @@ background-color: black;
     padding-right: 10px;
     margin-left: 30px;
     padding-left: 20px;
-    background-color: #ECECE4;
+    background-color: #97978d;
     width: 450px;
+    color: white;
 
 }
 .border{

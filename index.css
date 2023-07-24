@@ -1,10 +1,10 @@
 body{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Prompt', sans-serif;
     margin: 0;
     line-height: 1.5;
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: #4E6187;
 }
 a{
     text-decoration: none;
@@ -25,12 +25,11 @@ a{
 .logo-image {
     width: 400px; /* Set the desired width */
     height:auto; 
-    padding:50px 50px 50px 0px;
+    padding:50px 50px 50px 0;
     
 }
 
 .language{
-    color: ;
     margin-left: 10px;
     
 }

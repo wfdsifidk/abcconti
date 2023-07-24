@@ -1,10 +1,10 @@
 body{
-    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Prompt', sans-serif;
     margin: 0;
     line-height: 1.5;
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: #4E6187;
 }
 a{
     text-decoration: none;
@@ -20,7 +20,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    
+    margin-bottom: 50px;
 }
 .heder_block{
 
@@ -79,10 +79,9 @@ background-color: black;
     padding-right: 10px;
     margin-left: 30px;
     padding-left: 20px;
-    background-color: ;
+background-color: #8E9BB4;
     width: 450px;
     color: white;
-margin-top: -20px;
 
 }
 .border{

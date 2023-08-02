@@ -2,53 +2,64 @@ body{
     font-family: 'Prompt', sans-serif;
     margin: 0;
     line-height: 1.5;
-    color: white;
+    color: #97978D;
     text-decoration: none;
-    background-color: #4E6187;
+    background-color: white;
+    text-align: justify;
 }
 a{
     text-decoration: none;
-    color: white;
+color: #97978D;
 }
 .container {
-    max-width: 1000px;
+    max-width: 950px;
     margin: 0 auto;
 }
 .section_header{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    
 }
 
 
+.heder_block{
+    margin: 0 auto;
+}
+
 .logo-image {
-    width: 400px; /* Set the desired width */
+    width: 350px; /* Set the desired width */
     height:auto; 
-    padding:50px 50px 50px 0;
+    margin-left: 50px;
+
     
+}
+.section{
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .language{
     margin-left: 10px;
-    
 }
-
-.section {
-    margin-bottom: 60px;
+.language_wrap{
+    margin-right: 50px;
 }
 
 .image {
-    max-width: 340px;
+    max-width: 325px;
     height: 226px;
 }
 
 /* Стили для объектов */
 .properties {
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
+}
+.container_header{
+    max-width: 950px;
 }
 
 
@@ -59,19 +70,26 @@ a{
 
 }
 .property_desc{
-    max-width: 500px;
-
-    
+    max-width: 300px;
+    text-align: left;
+}
+h3{
+    font-size: 17.6px;
+    text-align: left;
 }
 .border{
-    border: 1px solid #E7E7DE;
-    width: 1000px;
+    border: 0.5px solid #97978D;
+    width: 950px;
     margin: 0 auto;
 }
 .footer{
     margin-top: 60px;
     text-align: center;
     margin-bottom: 60px;
+}
+.footer_rekv{
+    margin-top: 55px;
+    margin-bottom: 30px;
 }
 
  
@@ -80,7 +98,7 @@ a{
             max-width: 800px;
         }
         .border{
-            max-width: 700px;
+            max-width: 800px;
         }
         
      }
@@ -113,7 +131,7 @@ a{
         width: 250px;
     }
         .border{
-            max-width: 400px;
+            max-width: 600px;
         }
         
      }
@@ -150,10 +168,12 @@ a{
     
     @media all and (max-width: 480px) { 
         .container{
-            max-width: 300px;
+            max-width: 250px;
         }
         .logo-image{
-            width: 200px;
+            margin-left: 0;
+
+            width:150px;
             height: auto;
         }
         body{
@@ -167,11 +187,11 @@ a{
             text-decoration: none;
         }
         .image{
-            width: 300px;
-            height: 200px;
+            width: 250px;
+            height: 180px;
         }
         .border{
-            max-width: 300px;
+            max-width: 250px;
         }
         
         
